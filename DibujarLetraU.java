@@ -13,12 +13,12 @@ public class DibujarLetraU {
             }
 
 }
-        for(int i=0; i<=5; i++){
+        for(int i=0; i<6; i++){
             matriz[i][0] = '*';
 
         }
 
-        for(int i=0; i<=4; i++){
+        for(int i=0; i<5; i++){
             matriz[i][columnas - 1] = '*';
         }
 
