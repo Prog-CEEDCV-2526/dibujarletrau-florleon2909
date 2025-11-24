@@ -11,16 +11,23 @@ public class DibujarLetraU {
             for (int j = 0; j < columnas; j++) {
                 matriz[i][j] = ' ';
             }
-        }
-        for(int i=0; i<filas; i++){
+
+}
+        for(int i=0; i<=5; i++){
             matriz[i][0] = '*';
+
+        }
+
+        for(int i=0; i<=4; i++){
             matriz[i][columnas - 1] = '*';
         }
 
-        for(int i=0; i<columnas; i++){
-            matriz[6][i] = '*';
-            
+        for(int j=0; j<columnas; j++){
+            matriz[5][3] = '*';
+            matriz[6][2] = '*';
+            matriz[6][1] = '*';
         }
+
 
         // Paso 3: Dibujar los lados verticales de la letra U
         // COMPLETA AQUÍ: usa bucles para poner '*' en la primera y última columna
