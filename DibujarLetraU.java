@@ -22,11 +22,10 @@ public class DibujarLetraU {
             matriz[i][columnas - 1] = '*';
         }
 
-        for(int j=0; j<columnas; j++){
             matriz[5][3] = '*';
             matriz[6][2] = '*';
             matriz[6][1] = '*';
-        }
+        
 
 
         // Paso 3: Dibujar los lados verticales de la letra U
